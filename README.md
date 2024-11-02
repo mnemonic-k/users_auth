@@ -45,17 +45,12 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Migration
 
+Go to the file drizzle.config.ts, add your database url, after that use:
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# migrate
+$ npx drizzle-kit migrate
 ```
 
 ## Support
